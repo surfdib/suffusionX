@@ -114,6 +114,11 @@ if (!class_exists('Suffusion_Integration_Pack')) {
 					'text' => 'Shortcodes',
 					'class' => 'pack-sc',
 				),
+				'Suffusion Dokan Pack' => array(
+					'url' => 'http://wordpress.org/extend/plugins/suffusion-dokan-pack',
+					'text' => 'Dokan Pack',
+					'class' => 'pack-dk',
+				),
 			);
 			?>
 		<fieldset>
