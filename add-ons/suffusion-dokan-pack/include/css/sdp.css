@@ -1,0 +1,159 @@
+/* Suffusion Dokan Pack - Skin Matching Styles */
+
+/* Increase specificity and use !important to ensure theme styles override Dokan defaults */
+
+/* Common Dashboard Styles */
+body.suffusion-custom .dokan-dashboard .dokan-dash-sidebar,
+body.suffusion-custom .dokan-dashboard .dokan-dashboard-content {
+    border-radius: 0 !important;
+}
+
+body.suffusion-custom .dokan-dashboard .dokan-btn {
+    border-radius: 3px !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+}
+
+/* Light Theme Gray 1 & 2 (Default) */
+body.light-theme-gray-1.suffusion-custom .dokan-dashboard .dokan-dash-sidebar,
+body.light-theme-gray-2.suffusion-custom .dokan-dashboard .dokan-dash-sidebar {
+    background-color: #f9f9f9 !important;
+    border-right: 1px solid #ccc !important;
+}
+
+body.light-theme-gray-1.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-gray-1.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover,
+body.light-theme-gray-2.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-gray-2.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    background-color: #eee !important;
+    border-left: 5px solid #787878 !important;
+}
+
+body.light-theme-gray-1.suffusion-custom .dokan-dashboard .dokan-btn-theme,
+body.light-theme-gray-2.suffusion-custom .dokan-dashboard .dokan-btn-theme {
+    background-color: #787878 !important;
+    border: 1px solid #ccc !important;
+    color: #fff !important;
+}
+
+/* Green Skins */
+body.light-theme-green.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-green.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #528f6c !important;
+}
+body.light-theme-green.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #528f6c !important; color: #fff !important; }
+
+/* Pale Blue Skins */
+body.light-theme-pale-blue.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-pale-blue.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #227ad1 !important;
+}
+body.light-theme-pale-blue.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #227ad1 !important; color: #fff !important; }
+
+/* Royal Blue Skins */
+body.light-theme-royal-blue.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-royal-blue.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #227ad1 !important;
+}
+body.light-theme-royal-blue.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #227ad1 !important; color: #fff !important; }
+
+/* Red Skins */
+body.light-theme-red.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-red.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #8a1717 !important;
+}
+body.light-theme-red.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #8a1717 !important; color: #fff !important; }
+
+/* Orange Skins */
+body.light-theme-orange.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-orange.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #d05e0b !important;
+}
+body.light-theme-orange.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #d05e0b !important; color: #fff !important; }
+
+/* Purple Skins */
+body.light-theme-purple.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.light-theme-purple.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    border-left-color: #af0a4f !important;
+}
+body.light-theme-purple.suffusion-custom .dokan-dashboard .dokan-btn-theme { background-color: #af0a4f !important; color: #fff !important; }
+
+/* Dark Theme Styles */
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-dash-sidebar {
+    background-color: #111 !important;
+    border-right: 1px solid #333 !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a {
+    color: #eee !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    background-color: #222 !important;
+    border-left: 5px solid #555 !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-btn-theme {
+    background-color: #333 !important;
+    border: 1px solid #444 !important;
+    color: #eee !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-panel {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #eee !important;
+}
+
+/* Photonique Skin */
+body.photonique.suffusion-custom .dokan-dashboard .dokan-dash-sidebar {
+    background-color: #000 !important;
+}
+
+body.photonique.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active,
+body.photonique.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover {
+    background-color: #111 !important;
+    border-left: 5px solid #0af !important;
+}
+
+body.photonique.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a:hover,
+body.photonique.suffusion-custom .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active a {
+    color: #0af !important;
+}
+
+body.photonique.suffusion-custom .dokan-dashboard .dokan-btn-theme {
+    background-color: #111 !important;
+    border: 1px solid #333 !important;
+    color: #0af !important;
+}
+
+/* Scribbles Skin */
+body.scribbles.suffusion-custom .dokan-dashboard {
+    font-family: 'Coming Soon', cursive !important;
+}
+
+body.scribbles.suffusion-custom .dokan-dashboard .dokan-btn {
+    border-radius: 10px !important;
+}
+
+/* Additional specific overrides to ensure consistency */
+body.suffusion-custom .dokan-dashboard .dokan-dashboard-content article.dokan-product-edit-area,
+body.suffusion-custom .dokan-dashboard .dokan-dashboard-content article.dokan-settings-area {
+    padding: 20px !important;
+    background: transparent !important;
+}
+
+/* Match Suffusion's table styles */
+body.suffusion-custom .dokan-dashboard .dokan-table {
+    border-collapse: collapse !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-table thead tr {
+    background-color: #222 !important;
+    color: #eee !important;
+}
+
+body.dark-style.suffusion-custom .dokan-dashboard .dokan-table td {
+    border-top: 1px solid #333 !important;
+}
